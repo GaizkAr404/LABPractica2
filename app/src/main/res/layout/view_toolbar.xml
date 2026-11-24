@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Toolbar común a todas las pantallas; BaseActivity le pone el icono y el título. -->
+<com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toolbar_background"
+    android:elevation="4dp"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar"
+    app:titleMarginStart="12dp"
+    app:titleTextAppearance="?attr/textAppearanceTitleLarge"
+    app:titleTextColor="@color/white"
+    tools:ignore="Overdraw" />

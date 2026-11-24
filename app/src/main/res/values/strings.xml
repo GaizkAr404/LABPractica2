@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="app_logo_description">Icono de GeoQuiz</string>
+
+    <!-- Títulos de pantalla y menú -->
+    <string name="title_result">Resultado</string>
+    <string name="title_history">Historial</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_help">Cómo jugar</string>
+
+    <!-- Pantalla de juego -->
+    <string name="progress_format">Pregunta %1$d de %2$d</string>
+    <string name="score_format">Puntos: %1$d</string>
+    <string name="answer">Responder</string>
+    <string name="restart">Reiniciar</string>
+    <string name="spinner_hint">Selecciona una respuesta</string>
+    <string name="select_answer_first">Selecciona una respuesta antes de continuar</string>
+    <string name="question_image_description">Imagen de la pregunta</string>
+    <string name="correct_answer_message">¡Correcto! +3 puntos</string>
+    <string name="wrong_answer_title">Respuesta incorrecta</string>
+    <string name="wrong_answer_message">Has perdido 2 puntos. La respuesta correcta era: %1$s.</string>
+    <string name="continue_game">Continuar</string>
+    <string name="start_over">Empezar de nuevo</string>
+
+    <!-- Pantalla de resultado -->
+    <string name="game_over">¡Juego terminado!</string>
+    <string name="final_score_label">Puntuación final</string>
+    <string name="correct_count_format">Aciertos: %1$d de %2$d</string>
+    <string name="result_excellent">¡Perfecto! Eres un experto en geografía.</string>
+    <string name="result_good">¡Buen trabajo! Casi lo tienes.</string>
+    <string name="result_bad">Sigue practicando, ¡la próxima saldrá mejor!</string>
+    <string name="play_again">Jugar de nuevo</string>
+    <string name="new_record">¡Nuevo récord!</string>
+    <string name="view_history">Ver historial</string>
+
+    <!-- Historial -->
+    <string name="games_played_label">Partidas</string>
+    <string name="best_score_label">Mejor puntuación</string>
+    <string name="no_best_score">—</string>
+    <string name="empty_history">Todavía no has jugado ninguna partida. ¡Tu historial aparecerá aquí!</string>
+    <string name="points_format">%1$d pts</string>
+    <string name="clear_history">Borrar historial</string>
+    <string name="clear_history_title">¿Borrar el historial?</string>
+    <string name="clear_history_message">Se eliminarán todas las partidas guardadas y la mejor puntuación. Esta acción no se puede deshacer.</string>
+    <string name="clear_history_confirm">Borrar</string>
+
+    <!-- Ajustes -->
+    <string name="settings_sound_title">Efectos de sonido</string>
+    <string name="settings_sound_summary">Sonido al acertar, al fallar y al terminar la partida</string>
+    <string name="settings_questions_title">Preguntas por partida</string>
+    <string name="settings_questions_summary">Se aplica a partir de la próxima partida</string>
+    <plurals name="questions_per_game_value">
+        <item quantity="one">%1$d pregunta</item>
+        <item quantity="other">%1$d preguntas</item>
+    </plurals>
+
+    <!-- Manual de usuario -->
+    <string name="help_goal_title">Objetivo</string>
+    <string name="help_goal_body">Responde preguntas de geografía sobre capitales, ríos, montañas y banderas del mundo e intenta conseguir la máxima puntuación.</string>
+    <string name="help_play_title">Cómo responder</string>
+    <string name="help_play_body">Cada pregunta muestra sus cuatro opciones de una forma distinta: botones de opción, un desplegable, una lista o cuatro banderas para tocar. Elige una opción y pulsa «Responder». El botón «Reiniciar» empieza una partida nueva con otras preguntas.</string>
+    <string name="help_score_title">Puntuación</string>
+    <string name="help_score_body">Cada acierto suma 3 puntos y cada fallo resta 2. Al fallar verás la respuesta correcta y podrás continuar o empezar de nuevo. Al terminar se muestra la puntuación final.</string>
+    <string name="help_history_title">Historial</string>
+    <string name="help_history_body">Todas las partidas terminadas se guardan con su fecha, aciertos y puntuación. Ábrelo desde el icono del reloj en la barra superior. Si superas tu mejor puntuación verás el aviso «¡Nuevo récord!».</string>
+    <string name="help_settings_title">Ajustes</string>
+    <string name="help_settings_body">Desde el menú de la barra superior puedes activar o desactivar los sonidos y elegir cuántas preguntas tiene cada partida.</string>
+
+    <!-- Preguntas -->
+    <string name="q_capital_australia">¿Cuál es la capital de Australia?</string>
+    <string-array name="q_capital_australia_options">
+        <item>Sídney</item>
+        <item>Canberra</item>
+        <item>Melbourne</item>
+        <item>Perth</item>
+    </string-array>
+
+    <string name="q_flag_country">¿De qué país es esta bandera?</string>
+    <string-array name="q_flag_japan_options">
+        <item>China</item>
+        <item>Corea del Sur</item>
+        <item>Japón</item>
+        <item>Bangladés</item>
+    </string-array>
+
+    <string name="q_flag_italy">¿Cuál de estas es la bandera de Italia?</string>
+    <string-array name="q_flag_italy_options">
+        <item>Francia</item>
+        <item>Irlanda</item>
+        <item>Bélgica</item>
+        <item>Italia</item>
+    </string-array>
+
+    <string name="q_longest_river">¿Cuál es el río más largo de Europa?</string>
+    <string-array name="q_longest_river_options">
+        <item>Volga</item>
+        <item>Danubio</item>
+        <item>Rin</item>
+        <item>Loira</item>
+    </string-array>
+
+    <string-array name="q_flag_sweden_options">
+        <item>Noruega</item>
+        <item>Suecia</item>
+        <item>Finlandia</item>
+        <item>Dinamarca</item>
+    </string-array>
+
+    <string name="q_capital_canada">¿Cuál es la capital de Canadá?</string>
+    <string-array name="q_capital_canada_options">
+        <item>Toronto</item>
+        <item>Ottawa</item>
+        <item>Vancouver</item>
+        <item>Montreal</item>
+    </string-array>
+
+    <string name="q_largest_ocean">¿Cuál es el océano más grande del mundo?</string>
+    <string-array name="q_largest_ocean_options">
+        <item>Atlántico</item>
+        <item>Índico</item>
+        <item>Pacífico</item>
+        <item>Ártico</item>
+    </string-array>
+
+    <string name="q_highest_mountain">¿Cuál es la montaña más alta del mundo?</string>
+    <string-array name="q_highest_mountain_options">
+        <item>K2</item>
+        <item>Kilimanjaro</item>
+        <item>Aconcagua</item>
+        <item>Everest</item>
+    </string-array>
+
+    <string-array name="q_flag_france_options">
+        <item>Países Bajos</item>
+        <item>Francia</item>
+        <item>Rusia</item>
+        <item>Luxemburgo</item>
+    </string-array>
+
+    <string name="q_flag_ireland">¿Cuál de estas es la bandera de Irlanda?</string>
+    <string-array name="q_flag_ireland_options">
+        <item>Italia</item>
+        <item>Irlanda</item>
+        <item>Francia</item>
+        <item>Bélgica</item>
+    </string-array>
+
+    <string name="q_largest_country">¿Cuál es el país más grande del mundo por superficie?</string>
+    <string-array name="q_largest_country_options">
+        <item>Canadá</item>
+        <item>China</item>
+        <item>Rusia</item>
+        <item>Estados Unidos</item>
+    </string-array>
+
+    <string name="q_capital_brazil">¿Cuál es la capital de Brasil?</string>
+    <string-array name="q_capital_brazil_options">
+        <item>Brasilia</item>
+        <item>Río de Janeiro</item>
+        <item>São Paulo</item>
+        <item>Salvador</item>
+    </string-array>
+</resources>

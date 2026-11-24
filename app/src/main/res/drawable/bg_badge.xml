@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fondo redondeado de la etiqueta «¡Nuevo récord!» -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/compass_secondary_container" />
+    <corners android:radius="16dp" />
+</shape>
